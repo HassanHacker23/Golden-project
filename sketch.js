@@ -130,6 +130,7 @@ function draw() {
     
    if(greenHealthGrp.length === 0){
       player2.changeAnimation("Standing",player2Standing)
+      player1.changeAnimation("Standing",player1Standing)
       fill("Cyan")
       textSize(30)
       text("Player 2 Won",30,50)
@@ -137,6 +138,7 @@ function draw() {
     
     if(redHealthGrp.length === 0){
       player1.changeAnimation("Standing",player1Standing)
+      player2.changeAnimation("Standing",player2Standing)
       fill("Cyan")
       textSize(30)
       text("Player 1 Won",width-300,50)
